@@ -914,17 +914,6 @@ to implement certain methods then derive the remaining methods. Derivations:
 If a data type provides a method which *could* be derived, its behaviour must
 be equivalent to that of the derivation (or derivations).
 
-## Notes
-
-1. If there's more than a single way to implement the methods and
-   laws, the implementation should choose one and provide wrappers for
-   other uses.
-2. It's discouraged to overload the specified methods. It can easily
-   result in broken and buggy behaviour.
-3. It is recommended to throw an exception on unspecified behaviour.
-4. An `Identity` container which implements many of the methods is provided by
-   [sanctuary-identity](https://github.com/sanctuary-js/sanctuary-identity).
-
 
 [`fantasy-land/ap`]: #ap-method
 [`fantasy-land/bimap`]: #bimap-method
@@ -938,8 +927,3 @@ be equivalent to that of the derivation (or derivations).
 [`fantasy-land/promap`]: #promap-method
 [`fantasy-land/reduce`]: #reduce-method
 [`fantasy-land/zero`]: #zero-method
-
-## Alternatives
-
-There also exists [Static Land Specification](https://github.com/rpominov/static-land)
-with exactly the same ideas as Fantasy Land but based on static methods instead of instance methods.

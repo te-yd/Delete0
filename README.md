@@ -1,14 +1,5 @@
 # Fantasy Land Specification
 
-[![Build Status](https://travis-ci.org/fantasyland/fantasy-land.svg?branch=master)](https://travis-ci.org/fantasyland/fantasy-land) [![Join the chat at https://gitter.im/fantasyland/fantasy-land](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fantasyland/fantasy-land?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-(aka "Algebraic JavaScript Specification")
-
-<img src="logo.png" width="200" height="200" />
-
-This project specifies interoperability of common algebraic
-structures:
-
 <pre>
  <a href="#setoid">Setoid</a>   <a href="#emigroupoid">Semigroupoid</a>  <a href="#semigroup">Semigroup</a>   <a href="#foldable">Foldable</a>        <a href="#functor">Functor</a>      <a href="#contravariant">Contravariant</a>  <a href="#filterable">Filterable</a>
 (<a href="#equals-method">equals</a>)    (<a href="#compose-method">compose</a>)    (<a href="#concat-method">concat</a>)   (<a href="#reduce-method">reduce</a>)         (<a href="#map-method">map</a>)        (<a href="#contramap-method">contramap</a>)    (<a href="#filter-method">filter</a>)
